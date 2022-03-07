@@ -1,0 +1,1934 @@
+{
+	"type": "advantage_list",
+	"version": 2,
+	"id": "a7f78ee1-ee94-42bc-8c61-a2b8a5ef3015",
+	"rows": [
+		{
+			"type": "advantage",
+			"id": "2d6be41a-d562-46d3-86c1-39ed83b49a2e",
+			"name": "@Type@ Rank",
+			"physical": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"reference": "DW35",
+			"calc": {
+				"points": 5
+			},
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "aa4d14d1-07fe-4f66-b178-a4d927a11e8e",
+			"name": "Appearance",
+			"physical": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"id": "a194b090-1ef8-44a3-a192-69868ce62223",
+					"disabled": true,
+					"name": "Hideous",
+					"reference": "DW28",
+					"cost_type": "points",
+					"cost": -16,
+					"affects": "total",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -4,
+							"situation": "from others"
+						}
+					]
+				},
+				{
+					"type": "modifier",
+					"id": "c0b72fe1-cf6c-434f-87f9-b74c8d6d33d3",
+					"disabled": true,
+					"name": "Ugly",
+					"reference": "DW28",
+					"cost_type": "points",
+					"cost": -8,
+					"affects": "total",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "from others"
+						}
+					]
+				},
+				{
+					"type": "modifier",
+					"id": "75b63c14-705a-48ec-97b8-8154b59db0cc",
+					"disabled": true,
+					"name": "Unattractive",
+					"reference": "DW28",
+					"cost_type": "points",
+					"cost": -4,
+					"affects": "total",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from others"
+						}
+					]
+				},
+				{
+					"type": "modifier",
+					"id": "7ccb3797-3eb2-42b6-9f2a-ca073c9066c6",
+					"disabled": true,
+					"name": "Very Beautiful",
+					"reference": "DW29",
+					"cost_type": "points",
+					"cost": 16,
+					"affects": "total",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": 6,
+							"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead."
+						}
+					]
+				},
+				{
+					"type": "modifier",
+					"id": "978ab466-458f-4ccc-a201-baa100c2d69b",
+					"disabled": true,
+					"name": "Very Handsome",
+					"reference": "DW29",
+					"cost_type": "points",
+					"cost": 16,
+					"affects": "total",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": 6,
+							"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead."
+						}
+					]
+				},
+				{
+					"type": "modifier",
+					"id": "81825cc6-cd31-47d9-a274-4560afca1e11",
+					"disabled": true,
+					"name": "Beautiful",
+					"reference": "DW29",
+					"cost_type": "points",
+					"cost": 12,
+					"affects": "total",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": 4,
+							"situation": "from those attracted to members of your sex, +2 from everyone else"
+						}
+					]
+				},
+				{
+					"type": "modifier",
+					"id": "6eac619f-9d54-48b5-b35a-62bf5b6cbb2e",
+					"disabled": true,
+					"name": "Handsome",
+					"reference": "DW29",
+					"cost_type": "points",
+					"cost": 12,
+					"affects": "total",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": 4,
+							"situation": "from those attracted to members of your sex, +2 from everyone else"
+						}
+					]
+				},
+				{
+					"type": "modifier",
+					"id": "578adeb1-c7ae-4579-9b8f-8e3030e92bf6",
+					"disabled": true,
+					"name": "Attractive",
+					"reference": "DW29",
+					"cost_type": "points",
+					"cost": 4,
+					"affects": "total",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": 1,
+							"situation": "from others"
+						}
+					]
+				},
+				{
+					"type": "modifier",
+					"id": "d1188f45-b910-4e2a-86dc-22fa34e4d308",
+					"disabled": true,
+					"name": "Average",
+					"reference": "DW29",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total"
+				}
+			],
+			"reference": "DW28",
+			"calc": {
+				"points": 0
+			},
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "3295320d-1fe4-4821-9ccb-8aec551bd685",
+			"name": "Charisma",
+			"mental": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"reference": "DW29",
+			"calc": {
+				"points": 5
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "fortune-telling"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "leadership"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "panhandling"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "public speaking"
+					}
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": 1,
+					"per_level": true,
+					"situation": "from sapient being with whom you actively interact (converse, lecture, etc.)"
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": 1,
+					"per_level": true,
+					"situation": "to Influence rolls"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "f1c05f41-1d4d-42a2-8b40-463ed67f1c30",
+			"name": "Clerical Investment",
+			"social": true,
+			"base_points": 5,
+			"reference": "DW34",
+			"calc": {
+				"points": 5
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": 1,
+					"situation": "from members of your religion and those who respect your faith"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "176d4dc8-6d70-4e50-9ba4-4e104ae274ba",
+			"name": "Code of Honour (Academic)",
+			"mental": true,
+			"base_points": -5,
+			"reference": "DW56",
+			"calc": {
+				"points": -5
+			},
+			"notes": "Pursue learning diligently, and never lie about it. Respect fellow academics and their work. Only conceal knowledge if lives are at stake. Acknowledge your sources.",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "c02eeb49-9a04-4ece-b758-8297743a3ca1",
+			"name": "Comfortable Wealth",
+			"social": true,
+			"base_points": 10,
+			"reference": "DW33",
+			"calc": {
+				"points": 10
+			},
+			"notes": "Starting wealth is twice normal",
+			"categories": [
+				"Advantage",
+				"Wealth"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "282e1939-a80b-46ad-8056-1e32fb024773",
+			"name": "Cultural Familiarity (@Culture@)",
+			"mental": true,
+			"base_points": 1,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"id": "68361565-2149-44da-a43d-a87467ded494",
+					"disabled": true,
+					"name": "Alien",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"id": "76dfbf24-67db-4ede-ac08-c41fad8bfe7d",
+					"disabled": true,
+					"name": "Native",
+					"cost_type": "points",
+					"cost": -1,
+					"affects": "total"
+				}
+			],
+			"reference": "DW32",
+			"calc": {
+				"points": 1
+			},
+			"notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "6a2b9892-760d-4e3f-ac7a-57f14676c221",
+			"name": "Dead Broke",
+			"social": true,
+			"base_points": -25,
+			"reference": "DW33",
+			"calc": {
+				"points": -25
+			},
+			"notes": "Starting wealth is 0",
+			"categories": [
+				"Disadvantage",
+				"Wealth"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "0726043b-3067-405a-91f5-375b711e83b0",
+			"name": "Disturbing Voice",
+			"physical": true,
+			"base_points": -10,
+			"reference": "DW30",
+			"calc": {
+				"points": -10
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "voice"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "diplomacy"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "fast-talk"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "performance"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "public speaking"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "sex appeal"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "singing"
+					}
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "73bf7ef2-3d2e-457a-85cd-1cd24c4956d8",
+			"name": "Dwarfism",
+			"physical": true,
+			"base_points": -15,
+			"reference": "DW29",
+			"calc": {
+				"points": -15
+			},
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": -1,
+					"attribute": "basic_move"
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "disguise"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "shadowing"
+					}
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": -1,
+					"attribute": "sm"
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "ef097ab3-63e6-4f2b-9096-aee5638f2bcc",
+			"name": "Fat",
+			"physical": true,
+			"base_points": -3,
+			"reference": "DW29",
+			"calc": {
+				"points": -3
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "attribute_prereq",
+						"has": true,
+						"which": "ht",
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 15
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "disguise"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "shadowing"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 3,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "swimming"
+					}
+				},
+				{
+					"type": "conditional_modifier",
+					"amount": 2,
+					"situation": "to ST vs knockback"
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "dbe624c9-8965-46b2-8b80-e2f827906db3",
+			"name": "Filthy Rich",
+			"social": true,
+			"base_points": 50,
+			"reference": "DW33",
+			"calc": {
+				"points": 50
+			},
+			"notes": "Starting wealth is 100x normal",
+			"categories": [
+				"Advantage",
+				"Wealth"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "2dc3cb2f-08f7-43fb-b045-dc37f146687d",
+			"name": "Gigantism",
+			"physical": true,
+			"reference": "DW29",
+			"calc": {
+				"points": 0
+			},
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "basic_move"
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"specialization": {
+						"compare": "is_not",
+						"qualifier": "animals"
+					},
+					"name": {
+						"compare": "is",
+						"qualifier": "disguise"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "shadowing"
+					}
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "sm"
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "a18481b4-637f-471f-8c2a-3eda719ea2bc",
+			"name": "High TL",
+			"mental": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"reference": "DW31",
+			"calc": {
+				"points": 5
+			},
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "6687ae68-2b54-4675-992c-a83bb87a1c0e",
+			"name": "Language Talent",
+			"mental": true,
+			"base_points": 10,
+			"reference": "DW32",
+			"calc": {
+				"points": 10
+			},
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "bc3e2f8e-1c37-4319-9c3f-fd0a145a9bd7",
+			"name": "Language: @Language@",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"id": "dda7c1b0-89a7-46d2-8fc8-877021b994c7",
+					"disabled": true,
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"id": "eb2a5658-81b9-4c9f-9ee1-5e1aeb612ace",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"id": "28b8339e-5710-4029-83df-e27c94692010",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"id": "607358c2-cb48-40bf-9729-edf3e5db7782",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"id": "a8c0a6cd-c39a-4da0-b849-5b9f4000fe75",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"id": "791ded89-f743-4f09-8ecd-5e8e95ec7a84",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"id": "5a07e1da-eef9-43a1-9513-f7953abd0080",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"id": "1489f7c1-d139-455a-aa06-c2d4750cbd65",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"id": "6ab62821-e6e6-4247-9bf8-179da2055333",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "DW31",
+			"calc": {
+				"points": 4
+			},
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "b242ffcb-b3a5-440e-ab41-2f983772becf",
+			"name": "Language: @Language@",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"id": "90e54f42-39ed-4d4b-a5ff-64db635c8f7e",
+					"disabled": true,
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -4,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"id": "8d9d9bb0-33e4-4bed-80d5-1297d74cd742",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"id": "a5394244-a7eb-404a-a4b0-caa60ccedac2",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"id": "302e3204-d91d-48eb-b184-8c183bc98e00",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"id": "b77f7fdc-6a75-44bd-9847-c2b07fddb2c4",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "DW31",
+			"calc": {
+				"points": 2
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Language Talent"
+						}
+					}
+				]
+			},
+			"notes": "With Language Talent",
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "d756b3c9-ecab-40ef-b02c-ade1f26ef5a1",
+			"name": "Legal Enforcement Powers",
+			"social": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"reference": "DW35",
+			"calc": {
+				"points": 5
+			},
+			"notes": "@Description@",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "c40b404f-2300-4ae4-9a50-27bb72442122",
+			"name": "Legal Immunity",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"id": "426acdcb-3004-42b1-949c-8b7a64ff8911",
+					"disabled": true,
+					"name": "@Just as Strict@",
+					"reference": "DW35",
+					"cost_type": "points",
+					"cost": 5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"id": "1afcf27a-714b-403f-8255-7de8c8c1cde8",
+					"disabled": true,
+					"name": "@Less Strict@",
+					"reference": "DW35",
+					"cost_type": "points",
+					"cost": 10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"id": "fb0c1ffb-7af3-4506-b908-9b002cbeeed0",
+					"disabled": true,
+					"name": "@Not Strict@",
+					"reference": "DW35",
+					"cost_type": "points",
+					"cost": 15,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"id": "b5bde02b-0682-460a-91cb-c9de91785239",
+					"disabled": true,
+					"name": "Igor",
+					"reference": "DW35",
+					"cost_type": "points",
+					"cost": 5,
+					"affects": "total"
+				}
+			],
+			"reference": "DW35",
+			"calc": {
+				"points": 0
+			},
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "5ee54172-31df-40a6-a671-fa6b3b793898",
+			"name": "Longevity",
+			"physical": true,
+			"exotic": true,
+			"base_points": 1,
+			"reference": "DW52",
+			"calc": {
+				"points": 1
+			},
+			"categories": [
+				"Perk"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "89e2ddc1-dbf8-4a11-92a6-7c7237821a5c",
+			"name": "Low TL",
+			"social": true,
+			"levels": "1",
+			"points_per_level": -5,
+			"reference": "DW31",
+			"calc": {
+				"points": -5
+			},
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "47426a81-3c19-49d5-858b-3d0f1e92a6c3",
+			"name": "Multilingual",
+			"mental": true,
+			"base_points": 20,
+			"reference": "DW32",
+			"calc": {
+				"points": 20
+			},
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "e86a8e5f-e453-4bec-bcd5-1d8ab498d12b",
+			"name": "Multimillionaire",
+			"social": true,
+			"levels": "1",
+			"base_points": 50,
+			"points_per_level": 25,
+			"reference": "DW33",
+			"calc": {
+				"points": 75
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "filthy rich"
+						}
+					}
+				]
+			},
+			"notes": "Starting wealth is 100x10^level normal",
+			"categories": [
+				"Advantage",
+				"Wealth"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "ed037a94-4d59-4b28-8af7-24d6f5b552af",
+			"name": "Odious Personal Habit",
+			"physical": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"id": "d02b3d48-7c52-475b-8da2-652fa02e838c",
+					"disabled": true,
+					"name": "-1 Reaction",
+					"reference": "B22",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"id": "d9189db1-9751-47af-a4fa-efdb47a02f1d",
+					"disabled": true,
+					"name": "-2 Reaction",
+					"reference": "B22",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"id": "de9768cc-ec26-4380-adfd-1409aaa72f8f",
+					"disabled": true,
+					"name": "-3 Reaction",
+					"reference": "B22",
+					"cost_type": "points",
+					"cost": -15,
+					"affects": "total"
+				}
+			],
+			"reference": "DW29",
+			"calc": {
+				"points": 0
+			},
+			"notes": "@Habit@",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "0307c9ef-7212-48f6-8953-423fab018033",
+			"name": "Overweight",
+			"physical": true,
+			"base_points": -1,
+			"reference": "DW29",
+			"calc": {
+				"points": -1
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": -1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "disguise"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "shadowing"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "swimming"
+					}
+				},
+				{
+					"type": "conditional_modifier",
+					"amount": 1,
+					"situation": "to ST vs. knockback"
+				}
+			],
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "37ec27e9-3d7e-433b-bbd3-e9b530d6b6d0",
+			"name": "Pitiable",
+			"physical": true,
+			"social": true,
+			"base_points": 5,
+			"reference": "DW29",
+			"calc": {
+				"points": 5
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": 3,
+					"situation": "from those who consider you to be in a position of helplessness, weakness, or need (which never includes those with the Callous disadvantage)"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "c7fe7005-53b7-4280-8a28-c2808c892b0c",
+			"name": "Poor",
+			"social": true,
+			"base_points": -15,
+			"reference": "DW33",
+			"calc": {
+				"points": -15
+			},
+			"notes": "Starting wealth is 1/5 normal",
+			"categories": [
+				"Disadvantage",
+				"Wealth"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "575ed3c9-9b09-4e81-a55e-5c7da280cddd",
+			"name": "Reputation",
+			"social": true,
+			"levels": "1",
+			"points_per_level": -5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"id": "2291d10c-a4ac-479a-844f-d3eb376474b3",
+					"disabled": true,
+					"name": "People Affected",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 1,
+					"notes": "Almost everyone on the Disc"
+				},
+				{
+					"type": "modifier",
+					"id": "d9c4cb30-357a-49e7-8ab0-9bd6445b6000",
+					"disabled": true,
+					"name": "People Affected",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 0.67,
+					"notes": "Almost everyone on the Disc except @large class of people@"
+				},
+				{
+					"type": "modifier",
+					"id": "8dc39927-dce2-4b76-bd4f-ff00971f063f",
+					"disabled": true,
+					"name": "People Affected",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 0.5,
+					"notes": "@Large class of people@"
+				},
+				{
+					"type": "modifier",
+					"id": "ca1340f1-a789-4dcc-bf71-9597b6ebd196",
+					"disabled": true,
+					"name": "People Affected",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 0.33,
+					"notes": "@Small class of people@"
+				},
+				{
+					"type": "modifier",
+					"id": "383c14fa-356d-4efc-972a-6d359c3b2c83",
+					"disabled": true,
+					"name": "Recognized all the time",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 1
+				},
+				{
+					"type": "modifier",
+					"id": "00121f4a-878f-45e4-859e-ccd9c2cf8312",
+					"disabled": true,
+					"name": "Recognized sometimes",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 0.5,
+					"notes": "10-"
+				},
+				{
+					"type": "modifier",
+					"id": "ad647e46-d86f-498a-b0a6-99e5ac93a612",
+					"disabled": true,
+					"name": "Recognized occasionally",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 0.33,
+					"notes": "7-"
+				}
+			],
+			"reference": "DW34",
+			"calc": {
+				"points": -5
+			},
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "3b67a878-52e3-4b57-b305-0f966fcbe810",
+			"round_down": true,
+			"name": "Reputation",
+			"social": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"id": "1f706b55-ff2b-407a-a5e0-41bb4f7f160f",
+					"disabled": true,
+					"name": "People Affected",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 1,
+					"notes": "Almost everyone on the Disc"
+				},
+				{
+					"type": "modifier",
+					"id": "784ba3e1-dc88-4268-a476-15847cdecee7",
+					"disabled": true,
+					"name": "People Affected",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 0.67,
+					"notes": "Almost everyone on the Disc except @large class of people@"
+				},
+				{
+					"type": "modifier",
+					"id": "31264c52-bc17-44d6-804d-aa56667a1b16",
+					"disabled": true,
+					"name": "People Affected",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 0.5,
+					"notes": "@Large class of people@"
+				},
+				{
+					"type": "modifier",
+					"id": "2e5cb1e7-5994-48dc-8152-be48608df296",
+					"disabled": true,
+					"name": "People Affected",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 0.33,
+					"notes": "@Small class of people@"
+				},
+				{
+					"type": "modifier",
+					"id": "f7e7fd17-b435-4ff6-88e6-a6e2cc475cb1",
+					"disabled": true,
+					"name": "Recognized all the time",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 1
+				},
+				{
+					"type": "modifier",
+					"id": "76aa04f5-e7a6-489d-aac7-d9746b24a286",
+					"disabled": true,
+					"name": "Recognized sometimes",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 0.5,
+					"notes": "10-"
+				},
+				{
+					"type": "modifier",
+					"id": "2c93bf44-5b83-44f5-9e9a-ea0f64bed13f",
+					"disabled": true,
+					"name": "Recognized occasionally",
+					"reference": "DW34",
+					"cost_type": "multiplier",
+					"cost": 0.33,
+					"notes": "7-"
+				}
+			],
+			"reference": "DW34",
+			"calc": {
+				"points": 5
+			},
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "b795640a-04bb-4de7-a787-d20ff8a8ad2a",
+			"name": "Secret Name",
+			"social": true,
+			"supernatural": true,
+			"base_points": 1,
+			"reference": "DW52",
+			"calc": {
+				"points": 1
+			},
+			"categories": [
+				"Perk"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "5bb48e86-172f-4d07-84ee-587904f4e6bd",
+			"name": "Skinny",
+			"physical": true,
+			"base_points": -5,
+			"reference": "DW29",
+			"calc": {
+				"points": -5
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "attribute_prereq",
+						"has": true,
+						"which": "ht",
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 14
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "disguise"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "shadowing"
+					}
+				},
+				{
+					"type": "conditional_modifier",
+					"amount": -2,
+					"situation": "to ST vs. knockback"
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "ffbe15cd-3099-4aca-a81f-ad8ed21f698e",
+			"name": "Social Regard",
+			"social": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"reference": "DW35",
+			"calc": {
+				"points": 5
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": 1,
+					"per_level": true,
+					"situation": "from those who hold you in high regard for being a @Reason@, in a @Type: Feared, Respected or Venerated@ way."
+				}
+			],
+			"notes": "@Type: Feared, Respected or Venerated@: @Reason@",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "413e5a1f-25a1-43ba-89f2-7bdc52a9b31f",
+			"name": "Social Stigma (Logical Impossibility)",
+			"social": true,
+			"base_points": -10,
+			"reference": "DW36",
+			"calc": {
+				"points": -10
+			},
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "9cb900e1-1e0a-48a9-85ed-bb631e8bb2ac",
+			"name": "Social Stigma (Minor)",
+			"social": true,
+			"base_points": -5,
+			"reference": "DW36",
+			"calc": {
+				"points": -5
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -2,
+					"situation": "from others whenever you try to deal with them as an adult; they might like you, but they do not fully respect you"
+				}
+			],
+			"notes": "You are underage by your culture’s standards. You must buy off this trait when you reach “legal age” (usually 18) for your time and place.",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "dd1add4c-8777-4bc9-b389-f96afffeca8e",
+			"name": "Social Stigma (Minority Group)",
+			"social": true,
+			"base_points": -10,
+			"reference": "DW36",
+			"calc": {
+				"points": -10
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -2,
+					"situation": "from others except your own kind"
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": 2,
+					"situation": "from others of your own kind in an area, profession, or situation where your minority is especially rare"
+				}
+			],
+			"notes": "You are a member of a minority that the dominant culture around you regards as “barbarians” or “inferior.”",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "82f4331d-4d15-4d44-9558-0d4535f0457e",
+			"name": "Social Stigma (Monster)",
+			"social": true,
+			"base_points": -15,
+			"reference": "DW36",
+			"calc": {
+				"points": -15
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 3,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "intimidation"
+					}
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": -3,
+					"situation": "from others"
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "a91d4102-9a8d-4a1b-a180-d3498ef244a3",
+			"name": "Social Stigma (Overdressed Foreigner)",
+			"social": true,
+			"base_points": -10,
+			"reference": "DW36",
+			"calc": {
+				"points": -10
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -1,
+					"situation": "from others"
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": -3,
+					"situation": "from Unseen University graduates and would-be barbarian heroes"
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "9d836c68-d2d3-4cfb-baed-c84e27e5de20",
+			"name": "Social Stigma (Second-Class Citizen)",
+			"social": true,
+			"base_points": -5,
+			"reference": "DW36",
+			"calc": {
+				"points": -5
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -1,
+					"situation": "from others except those of your own kind"
+				}
+			],
+			"notes": "You belong to a group that receives fewer rights and privileges than “full citizens.”",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "47ae4ea9-c890-4da7-ba85-4b5b1bfcfc0e",
+			"name": "Social Stigma (Uneducated)",
+			"social": true,
+			"base_points": -5,
+			"reference": "DW36",
+			"calc": {
+				"points": -5
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -1,
+					"situation": "from others"
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "4710afae-a47f-46a0-af2d-561fde503169",
+			"name": "Social Stigma (Valuable Property)",
+			"social": true,
+			"base_points": -10,
+			"reference": "DW36",
+			"calc": {
+				"points": -10
+			},
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "9f4d8267-4bb4-4a0f-8a14-c90603e1041d",
+			"name": "Status",
+			"social": true,
+			"levels": "1",
+			"points_per_level": -5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"id": "323d241e-bf58-49df-a4ed-3567a5af7782",
+					"disabled": true,
+					"name": "Wealthy",
+					"reference": "DW38",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"id": "78ef39b6-5b75-45b0-be3e-2f08ea99c00e",
+					"disabled": true,
+					"name": "Multimillionaire 1",
+					"reference": "DW38",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"id": "a125f1d3-1982-4363-977e-bbc13af2a640",
+					"disabled": true,
+					"name": "Multimillionaire 2+",
+					"reference": "DW38",
+					"cost_type": "points",
+					"cost": -15,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"id": "7fd142f0-a616-4096-86e4-538ac50c57ec",
+					"disabled": true,
+					"name": "Rank 3-5",
+					"reference": "DW38",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"id": "08355d54-c4a8-4ade-8002-b81b5bc013f2",
+					"disabled": true,
+					"name": "Rank 6+",
+					"reference": "DW38",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"reference": "DW37",
+			"calc": {
+				"points": -5
+			},
+			"notes": "@Description@",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "7f36d4b7-94ee-4d8e-b0c0-48d8547a835d",
+			"name": "Status",
+			"social": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"reference": "DW37",
+			"calc": {
+				"points": 5
+			},
+			"notes": "@Description@",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "ed51e644-f3e1-49c6-8d2a-325e80fd32bd",
+			"name": "Struggling",
+			"social": true,
+			"base_points": -10,
+			"reference": "DW33",
+			"calc": {
+				"points": -10
+			},
+			"notes": "Starting wealth is ½ normal",
+			"categories": [
+				"Disadvantage",
+				"Wealth"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "e081fea0-ee44-4934-976d-b3867d36c8be",
+			"name": "Superior Staff",
+			"mental": true,
+			"supernatural": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"id": "9131fe90-a455-4f74-9e17-56c8e64adef2",
+					"disabled": true,
+					"name": "Sapient Pearwood Staff",
+					"cost_type": "points",
+					"cost": 10,
+					"affects": "total"
+				}
+			],
+			"reference": "DW47",
+			"calc": {
+				"points": 5
+			},
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "f536dbd6-21f7-421a-b878-859ff186eb2c",
+			"name": "Understands the Librarian",
+			"mental": true,
+			"base_points": 1,
+			"reference": "DW53",
+			"calc": {
+				"points": 1
+			},
+			"categories": [
+				"Perk"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "ec803521-6a96-4964-8ac6-fcf1519f251a",
+			"name": "Universal Translator",
+			"mental": true,
+			"base_points": 30,
+			"reference": "DW32",
+			"calc": {
+				"points": 30
+			},
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "7010a3a9-d003-4403-9108-d31576e29feb",
+			"name": "Unnatural Features (@Description@)",
+			"physical": true,
+			"levels": "1",
+			"points_per_level": -1,
+			"reference": "DW30",
+			"calc": {
+				"points": -1
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": -1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "disguise"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "shadowing"
+					}
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "2256b3d1-e1ed-4c38-8c29-7c5f60f091d5",
+			"name": "Very Fat",
+			"physical": true,
+			"base_points": -5,
+			"reference": "DW29",
+			"calc": {
+				"points": -5
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "attribute_prereq",
+						"has": true,
+						"which": "ht",
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 13
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "disguise"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "shadowing"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 5,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "swimming"
+					}
+				},
+				{
+					"type": "conditional_modifier",
+					"amount": 3,
+					"situation": "to ST vs knockback"
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "2c9dfd2a-7a51-4556-82b8-3035b25c1991",
+			"name": "Very Wealthy",
+			"social": true,
+			"base_points": 30,
+			"reference": "DW33",
+			"calc": {
+				"points": 30
+			},
+			"notes": "Starting wealth is 20x normal",
+			"categories": [
+				"Advantage",
+				"Wealth"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "21932cfd-090f-432f-a2d0-72531e30694a",
+			"name": "Voice",
+			"physical": true,
+			"base_points": 10,
+			"reference": "DW30",
+			"calc": {
+				"points": 10
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "diplomacy"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "fast-talk"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "mimicry"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "performance"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "politics"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "public speaking"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "sex appeal"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "singing"
+					}
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": 2,
+					"situation": "from others who can hear your voice"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "20544a67-1850-400c-84df-b75892c9be3f",
+			"name": "Wealthy",
+			"social": true,
+			"base_points": 20,
+			"reference": "DW33",
+			"calc": {
+				"points": 20
+			},
+			"notes": "Starting wealth is 5x normal",
+			"categories": [
+				"Advantage",
+				"Wealth"
+			]
+		}
+	]
+}

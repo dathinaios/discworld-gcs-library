@@ -1,0 +1,242 @@
+{
+	"type": "skill_list",
+	"version": 2,
+	"id": "9a711b4f-cb2b-4f13-a4cd-6f5564507712",
+	"rows": [
+		{
+			"type": "skill",
+			"id": "10d91a3c-4843-4fa4-be13-7cd997ed2db4",
+			"name": "Astronomy",
+			"reference": "DW70",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Academic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "bb6b328e-a9d9-4b9b-8622-6f211d31d5e0",
+			"name": "Astrozoology",
+			"reference": "DW70",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Academic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d91e637b-0d78-407b-93ce-fbb0e4642fe4",
+			"name": "History",
+			"reference": "DW70",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Academic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d7503579-057e-4564-b4a4-0a76ed860e4a",
+			"name": "Literature",
+			"reference": "DW70",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Academic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "fa736642-a0b7-4bb6-87e7-a4c80f1bc2cb",
+			"name": "Mathematics",
+			"reference": "DW70",
+			"specialization": "Applied",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Academic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b5dd7568-520b-4255-a497-3063860cddb2",
+			"name": "Mathematics",
+			"reference": "DW70",
+			"specialization": "Pure",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Academic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "2ffea72d-1cfa-403e-a4f0-811b63a9ce3d",
+			"name": "Metallurgy",
+			"reference": "DW70",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Academic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "8e9f4037-6190-4bc4-8546-03849c19fcb4",
+			"name": "Natural Philosophy",
+			"reference": "DW71",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Academic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c2516ae3-8890-4af5-84ad-8ebdf98f8f63",
+			"name": "Philosophy",
+			"reference": "DW71",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Academic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "94186769-0e6f-45b9-b7a6-9797fae802c7",
+			"name": "Acting",
+			"reference": "B174",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Performance",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Public Speaking",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c5fe1c4c-e66d-4ab3-a679-a5b7fd900f1e",
+			"name": "Magic",
+			"reference": "DW76",
+			"specialization": "@Specialization@",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "896f170b-95b2-4468-91b1-2380e01b9e93",
+			"name": "Magical Forms",
+			"reference": "DW76",
+			"specialization": "@Specialization@",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Magic",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Occult/Magical"
+			]
+		}
+	]
+}

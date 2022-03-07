@@ -1,0 +1,89 @@
+{
+	"type": "equipment_list",
+	"version": 2,
+	"id": "ac7b3a7b-e7dd-4698-b056-70fe2297e7bc",
+	"rows": [
+		{
+			"type": "equipment",
+			"id": "857b1964-9a72-49c2-a8b6-3054d9dda446",
+			"quantity": 1,
+			"description": "Caroc Cards",
+			"tech_level": "3",
+			"value": "5",
+			"weight": "0.5 lb",
+			"modifiers": [
+				{
+					"type": "eqp_modifier",
+					"id": "8a8dec5a-5eda-4f65-8f85-228402f0a5c5",
+					"disabled": true,
+					"name": "Gambling Deck",
+					"cost_type": "to_original_cost",
+					"cost": "-2.5"
+				}
+			],
+			"calc": {
+				"extended_value": "5",
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"type": "equipment",
+			"id": "50314cc9-d3cb-488d-9ed5-a4b956d370d7",
+			"quantity": 1,
+			"description": "Personal Organisers (“Dis-Organisers”)",
+			"value": "20",
+			"weight": "1 lb",
+			"reference": "DW160",
+			"calc": {
+				"extended_value": "20",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"type": "equipment",
+			"id": "bea1a3e6-758a-43e0-93af-990a5b9259d0",
+			"quantity": 1,
+			"description": "Signs and Door Furniture",
+			"value": "0",
+			"weight": "0 lb",
+			"reference": "DW160",
+			"modifiers": [
+				{
+					"type": "eqp_modifier",
+					"id": "faad1c3a-b86f-49e9-b1fb-8cb4d9a235ac",
+					"disabled": true,
+					"name": "Brass Door Plate",
+					"reference": "DW160",
+					"cost_type": "to_original_cost",
+					"cost": "+10"
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "86c20cb5-697e-40e6-bda2-bef3ce364fc6",
+					"disabled": true,
+					"name": "Brass Door-Knocker",
+					"reference": "DW160",
+					"cost_type": "to_original_cost",
+					"cost": "+25"
+				}
+			],
+			"calc": {
+				"extended_value": "0",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"type": "equipment",
+			"id": "173e8b8f-50f6-4b25-b911-c16b914a39a1",
+			"quantity": 1,
+			"description": "Thaumometer",
+			"value": "10",
+			"weight": "1 lb",
+			"reference": "DW160",
+			"calc": {
+				"extended_value": "10",
+				"extended_weight": "1 lb"
+			}
+		}
+	]
+}
