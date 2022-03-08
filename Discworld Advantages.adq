@@ -831,6 +831,405 @@
 		},
 		{
 			"type": "advantage",
+			"id": "c6364db9-76e7-4b16-931b-31ce56381682",
+			"name": "Talent (Animal Friend)",
+			"mental": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"id": "a6554319-6ba2-46a9-a48e-d89cb397ab5d",
+					"disabled": true,
+					"name": "Alternative Cost",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "levels_only"
+				}
+			],
+			"reference": "B90,PU3:6",
+			"calc": {
+				"points": 5
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "animal handling"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "falconry"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "packing"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "riding"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "teamster"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "veterinary"
+					}
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": 1,
+					"per_level": true,
+					"situation": "from ordinary animals"
+				}
+			],
+			"categories": [
+				"Advantage",
+				"Talent"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "6c18c006-93d2-4b62-b40f-ae926cc8f6f6",
+			"name": "Born to Hang",
+			"mental": true,
+			"physical": true,
+			"levels": "1",
+			"points_per_level": 10,
+			"reference": "DW47",
+			"calc": {
+				"points": 10
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Counterfeiting"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Disguise,"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Fast-Talk"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Fortune-Telling"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Sleight of Hand"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Filch"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Forced Entry"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Forgery"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Holdout"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Lockpicking"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Pickpocket"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Smuggling"
+					}
+				}
+			],
+			"categories": [
+				"Advantage",
+				"Talent"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "7f9672e4-10fd-4791-bef6-4f2fe624883b",
+			"name": "Born War Leader",
+			"physical": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"reference": "DW79",
+			"calc": {
+				"points": 5
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Leadership"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Military"
+					},
+					"name": {
+						"compare": "is",
+						"qualifier": "Savoir-Faire"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Intelligence Analysis"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Land"
+					},
+					"name": {
+						"compare": "is",
+						"qualifier": "Strategy"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Strategy"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Tactics"
+					}
+				}
+			],
+			"categories": [
+				"Advantage",
+				"Talent"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "70a8f6cc-5f25-45a7-a5a6-70d8e1c5e168",
+			"name": "Patchwork Man",
+			"physical": true,
+			"base_points": 10,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"id": "be93c81b-6284-47ec-9211-8a8000522255",
+					"disabled": true,
+					"name": "Modifier",
+					"cost_type": "percentage",
+					"cost": 0,
+					"affects": "total"
+				}
+			],
+			"reference": "DW45",
+			"calc": {
+				"points": 10
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Very Rapid Healing"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Repairable"
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Resistant"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 8
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Resistant"
+								}
+							}
+						]
+					}
+				]
+			},
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
 			"id": "d756b3c9-ecab-40ef-b02c-ade1f26ef5a1",
 			"name": "Legal Enforcement Powers",
 			"social": true,
