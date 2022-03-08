@@ -1,3 +1,3 @@
-# Discworld Role Playing Game GCS data
+# Discworld Role Playing Game GCS Data
 
 work in progress..
